@@ -30,7 +30,13 @@ public class Fizzbuzz {
     public static double division(double num1 , double num2){
 
         double result = num1 / num2;
-        System.out.println(result);
-        return result;
+            if (num1 < num2){
+                System.out.println(result);
+                return result;
+            }
+            else{
+            System.out.println("Impossible to execute");
+            return 0;
+        }
     }
 }

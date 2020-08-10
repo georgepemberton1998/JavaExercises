@@ -1,6 +1,6 @@
 package com.qa.day2;
 
-public class Fizzbuzz {
+public class Calculator {
 
     public static void main( String[] args) {
         addition(2, 5);

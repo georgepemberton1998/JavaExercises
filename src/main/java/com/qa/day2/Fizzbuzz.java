@@ -6,6 +6,7 @@ public class Fizzbuzz {
         addition(2, 5);
         subtraction(10, 5);
         multiplication(3, 7);
+        division(10,4);
     }
 
     public static int addition (int num1 , int num2){
@@ -23,6 +24,12 @@ public class Fizzbuzz {
     public static int multiplication(int num1 , int num2){
 
         int result = num1 * num2;
+        System.out.println(result);
+        return result;
+    }
+    public static double division(double num1 , double num2){
+
+        double result = num1 / num2;
         System.out.println(result);
         return result;
     }

@@ -3,10 +3,11 @@ package com.qa.day2;
 import java.sql.SQLOutput;
 
 public class Results {
+    public static int total = 300;
 
     public static void main( String[] args) {
         results(100, 100, 100);
-        percentage1(60);
+        percentage1(100, 100, 100);
 
     }
     public static void results (int Physics, int Chemistry, int Biology){
@@ -17,7 +18,9 @@ public class Results {
         System.out.println("Congratulations, you scored: " + total + "/450 in total");
        //return 0;
     }
-    public static int percentage1 (int percentage){
+    public static int percentage1 (int Physics, int Chemistry, int Biology){
+
+        double percentage = (total/4.5);
         System.out.println("Congratulations, your percent is: " + percentage + "%");
         return 0;
     }

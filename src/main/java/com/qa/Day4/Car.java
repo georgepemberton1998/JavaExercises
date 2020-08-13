@@ -5,6 +5,7 @@ public class Car {
     String colour;
 
     public Car (String colour ){
+
         this.colour = colour;
     }
     public String getColour(){

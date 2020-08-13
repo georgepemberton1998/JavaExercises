@@ -6,19 +6,9 @@ public class Reverse {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input text: ");
         String input = scanner.next();//
-        System.out.println("=============================");
-        System.out.println("=========Test_1==============");
         System.out.println(encode(input));
-        System.out.println("=============================");
-        System.out.println("=========Test_2==============");
-        System.out.println(encode("draziw"));
-
-        System.out.println("=============================");
-        System.out.println("=========Test_3==============");
-        System.out.println(encode("dra  ziw"));
-
+        System.out.println(encode(input));
     }
-
     public static void reverse(){
         char[] alphabet = {'a','b','c','d','e','f','g','h','i',
                 'j','k','l','m','n','o','p','q','r','s','t','u',
@@ -40,12 +30,10 @@ public class Reverse {
             char c = encryedString.charAt(i);
         }
         char[] encryedStringAsCharArray  = encryedString.toCharArray();
-
         for(char c: encryedStringAsCharArray){
             for(int a = 0; a < alphabet.length; a++){
                 if(c == alphabet[a]){
                     outString += alphabetReverse[a];
-
                 }
             }
         }

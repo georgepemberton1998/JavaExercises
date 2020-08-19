@@ -9,34 +9,24 @@ public class Calculator {
         division(10,4);
     }
 
-    public static int addition (int num1 , int num2){
-
+    public static Integer addition (int num1 , int num2){
        int result = num1 + num2;
        System.out.println(result);
        return result;
     }
-    public static int subtraction (int num1 , int num2){
+    public static Integer subtraction (int num1 , int num2){
 
         int result = num1 - num2;
         System.out.println(result);
         return result;
     }
-    public static int multiplication(int num1 , int num2){
+    public static Integer multiplication(int num1 , int num2){
 
         int result = num1 * num2;
         System.out.println(result);
         return result;
     }
-    public static double division(double num1 , double num2){
-
-        double result = num1 / num2;
-            if (num1 < num2){
-                System.out.println(result);
-                return result;
-            }
-            else{
-            System.out.println("Impossible to execute");
-            return 0;
-        }
+    public static Double division(double num1 , double num2){
+            return num1 / num2;
     }
 }

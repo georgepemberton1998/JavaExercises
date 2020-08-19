@@ -1,4 +1,4 @@
-package day5;
+package com.qa.day5;
 import java.util.Scanner;
 public class Reverse {
 
